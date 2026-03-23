@@ -512,15 +512,16 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   position: relative;
+  text-align: center;
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 72px;
   font-weight: 700;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   position: relative;
 }
 
@@ -528,10 +529,10 @@ section,
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
   height: 3px;
   background: var(--accent-color);
-  left: 0;
+  left: 40%;
+  right: 40%;
   bottom: 0;
 }
 
@@ -1272,4 +1273,5 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+  font-size: 20px;
 }
